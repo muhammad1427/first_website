@@ -5,8 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="arrow.svg" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <link rel="shortcut icon" href="../icons/arrow.svg" />
+    <script
+      src="https://kit.fontawesome.com/844c8c19be.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -24,6 +29,9 @@
             <input type="search" placeholder="Search" />
           </li>
         </ul>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </nav>
     </header>
     <main class="hero">
@@ -61,7 +69,7 @@
           </div>
         </div>
         <div class="service__cards">
-          <div cla><img src="Titik-titik.svg" alt="" /></div>
+          <div><img class="titik" src="Titik-titik.svg" alt="" /></div>
           <div class="service__4__cards">
             <div class="firstcard cardservice">
               <img src="flower.manufacturing.svg" alt="" />
@@ -256,14 +264,23 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam
                 sunt eveniet voluptatum.
               </p>
-              <div>
-                <input type="text" name="" id="" />
+              <form class="form__div">
+                <input type="email" placeholder="Enter your email" required />
                 <button>Subscribe</button>
-              </div>
+              </form>
             </div>
           </div>
           <div class="copyright__medias">
-            <div class="media__icon"></div>
+            <div class="media__icon">
+              <p>Copyright © 2022 Gunung Sewu All Right Reserved</p>
+              <div class="footer__icons">
+                <div><img src="Group 73.svg" alt="" /></div>
+                <div><img src="Group 73-1.svg" alt="" /></div>
+                <div><img src="Instagram.svg" alt="" /></div>
+                <div><img src="Facebook.svg" alt="" /></div>
+                <div><img src="Twitter.svg" alt="" /></div>
+              </div>
+            </div>
           </div>
         </div>
       </footer>

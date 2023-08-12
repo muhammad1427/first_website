@@ -1,0 +1,136 @@
+@media screen and (max-width: 768px) {
+  .titik {
+    display: none;
+  }
+  header nav .hamburger {
+    display: block;
+  }
+  header nav {
+    justify-content: space-around;
+  }
+  header nav ul {
+    display: none;
+  }
+  .hero__section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__info,
+  .hero__img {
+    width: 100%;
+    justify-content: center;
+  }
+  .info__content h1 {
+    font-size: 50px;
+  }
+  .info__content p {
+    font-size: 17px;
+  }
+  .info__content {
+    align-items: center;
+    text-align: center;
+  }
+  .hero__img .img__card {
+    width: 400px;
+    height: 300px;
+  }
+  .img__card .team__img {
+    width: 100%;
+    height: 100%;
+  }
+  .img__card .titik__icon {
+    display: none;
+  }
+  .service {
+    margin: 40px 0px;
+  }
+  .service__section {
+    flex-direction: column;
+  }
+  .service__info {
+    width: 100%;
+  }
+  .service__info__content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  .service__info__content h2 {
+    font-size: 42px;
+    line-height: 40px;
+  }
+  .service__cards {
+    margin: 10px 0px;
+  }
+  .who__we__are {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .about__we__are {
+    width: 100%;
+  }
+  .about__us__content {
+    align-items: center;
+  }
+  .about__us__content p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .frame__about__us {
+    width: 100%;
+  }
+  .img__of__us {
+    width: 400px;
+    height: 300px;
+  }
+  .img__of__us img {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+  .news {
+    margin: 40px 0px;
+  }
+  .news__cards {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner {
+    display: none;
+  }
+  .copyright__info {
+    height: auto;
+    flex-direction: column;
+  }
+  .copyright__info > div {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyright__info ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .newsletter {
+    text-align: center;
+  }
+  .media__icon {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .media__icon p {
+    width: 100%;
+    text-align: center;
+  }
+}
